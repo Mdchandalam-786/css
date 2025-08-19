@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .box{
+      height:100px;
+      width:100px;
+      background-color:red;
+      transition:1.5s;
+    }
+    .box:hover{
+      transform:rotate(90deg);
+    }
+    .box2{
+      height:100px;
+      width:100px;
+      background-color:blue;
+      transition:1.5s;
+    }
+    .box2:hover{
+      transform: scale(0.5);
+    }
+
+    .box3{
+      height:100px;
+      width:100px;
+      background-color:crimson;
+      transform: skew(10deg);
+      transition:1.5s;
+    }
+    .box3:hover{
+      transform: skew(30deg);
+    }
+    .box4{
+      height:100px;
+      width:100px;
+      background-color: cornflowerblue;
+      transform: translate(100px);
+      transition:1s;
+    }
+    .box4:hover{
+      transform:translate(-20px);
+    }
+
+  </style>
+  <title>transform</title>
+</head>
+<body>
+  <div class="box"></div>
+  <div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+</body>
+</html>
