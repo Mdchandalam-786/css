@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+          body {
+                background-color: lightblue;
+          }
+
+          /* Media query for screens smaller than 600px */
+          @media (max-width: 600px) {
+                body {
+                     background-color: lightcoral;
+                     font-family:Algerian;
+                }
+          }
+           @media (max-width: 400px) {
+                body {
+                    font-size:4rem;
+                         background-color: lightyellow;
+                    font-weight: 900;
+                    
+                     -webkit-text-stroke-width:0.05px;
+                     -webkit-text-stroke-color: aqua;
+
+                }
+          }
+          @media only screen and (min-width: 601px) and (max-width: 1200px) {
+                body {
+                     background-color: lightgreen;
+                }
+                h1{
+                    color: blue;
+                     font-size: 30px;
+                }
+               
+          }
+     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <h1>
+          Media Query
+     </h1>
+     <p>
+          Try to resize the browser window.
+     </p>
+</body>
+</html>
